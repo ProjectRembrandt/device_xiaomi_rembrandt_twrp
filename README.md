@@ -3,7 +3,7 @@
 =========================================
 
 Redmi K60E (codenamed _"rembrandt"_) is a smartphone from Xiaomi.
-![Redmi K60E](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1672037146.81276139.png)
+
 It was released in December 2022.
 
 ## Device specifications
@@ -19,15 +19,15 @@ Storage | 256 GB (UFS 3.1)
 Battery | Li-Po 5500 mAh, non-removable
 Display | 1220 x 2712 pixels, 6.67 inches, 60/120 hz
 
+## Device Picture
+
+![Redmi K60E](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1672037146.81276139.png)
+
 ## Features
-Problems:
-- [X] unmount vendor
-- [X] directly flash magisk
 
 Works:
-
 - [X] ADB
-- [X] Partially Decryption (Android 13)
+- [X] Partially Decryption (Android 14)
 - [X] Display
 - [X] Fasbootd
 - [X] Flashing
@@ -35,9 +35,6 @@ Works:
 - [X] Sideload
 - [X] USB OTG
 - [X] Vibrator
-
-## Donate me
-![mmqmem](https://img2.imgtp.com/2024/03/05/FdGtaESF.jpg)
 
 ## To use it:
 
