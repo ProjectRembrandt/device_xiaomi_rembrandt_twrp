@@ -26,10 +26,8 @@ $(call inherit-product, device/xiaomi/rembrandt/device.mk)
 PRODUCT_DEVICE := rembrandt
 PRODUCT_NAME := twrp_rembrandt
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi K60E
+PRODUCT_MODEL := 22122RK93C
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Hide Reflash TWRP & FUSE passthrough
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.twrp.vendor_boot=true \
-    persist.sys.fuse.passthrough.enable=true
+# Hide Reflash TWRP
+PRODUCT_PROPERTY_OVERRIDES += ro.twrp.vendor_boot=true
