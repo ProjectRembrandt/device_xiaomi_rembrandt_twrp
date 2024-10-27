@@ -32,7 +32,7 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
     export TARGET_DEVICE_ALT="rembrandt"
     export FOX_VIRTUAL_AB_DEVICE=1
     export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
-    export OF_MAINTAINER="mominqimiang"
+    export OF_MAINTAINER="Project Rembrandt"
 
     # Magiskboot
     export OF_USE_MAGISKBOOT=1
