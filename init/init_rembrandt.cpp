@@ -29,7 +29,7 @@ void vendor_load_properties()
         property_override(string("ro.product.") + prop + string("name"), "rembrandt");
         property_override(string("ro.product.") + prop + string("device"), "rembrandt");
         property_override(string("ro.product.") + prop + string("model"), "22122RK93C");
-        property_override(string("ro.product.") + prop + string("marketname"), "Redmi K60E");
+        property_override(string("ro.product.") + prop + string("marketname"), "Redmi K50S");
         property_override(string("ro.product.") + prop + string("cert"), "22122RK93C");
     }
     property_override("ro.bootimage.build.date.utc", "1676018595");
