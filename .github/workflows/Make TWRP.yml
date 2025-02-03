@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'A14'
+        default: 'A15'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -160,6 +160,6 @@ jobs:
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: ${{ github.event.inputs.DEVICE_NAME }}
           Target: vendor_boot.img
-          Version:Android14
+          Version:Android15
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
